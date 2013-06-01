@@ -1,0 +1,10 @@
+class Main inherits IO {
+   main() : SELF_TYPE {
+   {
+      let x1:Int <- 1, y:Int in
+      {
+         y <- 2;
+      };
+   }
+   };
+};
