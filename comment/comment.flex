@@ -10,12 +10,12 @@ INHERITS (?i:inherits)
 LET      (?i:let)
 IN       (?i:in)
 ASSIGN   <-
-NOTATION \:|,|\;|\{|\}
+NOTATION \:|,|\;|\{|\}|\(|\)
 BLANK    \f|\r|\ |\t|\v
 NEWLINE  \n
 
-TYPE_IDENTFIER    ([A-Z][a-zA-Z0-9_]*)|SELF_TYPE
-OBJ_IDENTFIER    ([a-z][a-zA-Z0-9_]*)|self
+TYPE_IDENTFIER   [A-Z][a-zA-Z0-9_]*
+OBJ_IDENTFIER    [a-z][a-zA-Z0-9_]*
 
 %x comment_line
 %x comment_all
