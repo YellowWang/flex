@@ -4,7 +4,6 @@
 %option noyywrap
 
 %%
-\n   printf("\n");
 %%
 
 int main()
